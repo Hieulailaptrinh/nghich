@@ -1,0 +1,14 @@
+img {
+  width: 600px;
+  height: 700px;
+  max-width: 800px;
+  visibility: hidden;
+}
+body {
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+input:checked ~ img {
+  visibility: visible;
+}
